@@ -1,0 +1,12 @@
+
+@mixin flexprop {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+@mixin flexprop2 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}

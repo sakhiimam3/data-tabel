@@ -1,0 +1,57 @@
+@import "./mixins.scss";
+.create_section {
+  font-family: sans-serif;
+  height: 100vh;
+  margin-top: 70px;
+ 
+
+  .Upload_img {
+    width: 300px;
+    height: 250px;
+    border: 3px dashed rgb(204, 204, 204);
+    border-radius: 5px;
+    margin-top: 30px;
+    cursor: pointer;
+    @include flexprop;
+    padding: 10px;
+    &:hover{
+      border: 3px dashed rgb(196, 190, 190);
+    }
+
+    .overlay {
+      width: 300px;
+      height: 220px;
+      @include flexprop;
+      border-radius: 10px;
+      &:hover {
+        background-color: rgb(221, 218, 218);
+        transition: 0.2s all linear;
+      }
+
+      svg {
+        font-size: 50px;
+        color: grey;
+      }
+ 
+      img{
+            height: 220px;
+            width:270px;
+            object-fit: cover ;
+      }
+
+
+
+      input{
+          display: none;
+      }
+    }
+  }
+
+  .file_size_text {
+    span {
+      font-size: 14px;
+      font-weight: lighter;
+    }
+  }
+
+}

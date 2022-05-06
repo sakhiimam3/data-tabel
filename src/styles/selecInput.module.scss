@@ -1,0 +1,74 @@
+ @import "./mixins.scss";
+.SelectList {
+  width: 100%;
+  border-bottom: 1px solid rgb(206, 200, 200);
+
+  .icon {
+    font-size: 25px;
+    color: rgb(53, 49, 49);
+  }
+  .list_content {
+    margin-left: -20px;
+    margin-top: 10px;
+  }
+
+  .select_list_text {
+    h6 {
+      font-weight: 900;
+    }
+    p {
+      color: grey;
+    }
+  }
+  .select_list_btn {
+    input {
+      height: 50px;
+      width: 50px;
+      font-size: 25px;
+      border-radius: 10px;
+      @include flexprop;
+      
+      &:focus {
+            outline: none;
+            box-shadow: none;
+          }
+      svg {
+        font-size: 30px;
+      }
+    }
+  }
+}
+
+
+.render_model_input{
+  background-color: rgba(21, 178, 229, 0.06);
+  border-radius: 6px;
+  border: 1px solid rgb(21, 178, 229);
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px;
+  cursor: pointer;
+
+     .Progress_link{
+         color: rgb(14, 14, 231) !important;
+     }
+ 
+     span{
+      color: rgb(126, 121, 121);
+     }
+     
+}
+
+.check_btn_textArea{
+       font-size: 16px;
+       font-family: sans-serif;
+       padding: 10px;
+       color: grey;
+       width: 100%;
+       border:0.5px solid rgb(228, 219, 219);
+       border-radius: 5px;
+
+       &:focus{
+      outline: none;           
+       }
+}

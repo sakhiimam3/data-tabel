@@ -1,0 +1,72 @@
+ @import "./mixins.scss";
+
+.form {
+    label {
+      text-transform: capitalize;
+      font-weight: 600;
+      font-family: sans-serif;
+    }
+    input {
+      width: 100%;
+      height: 46px;
+      border-radius: 7px;
+      padding: 0px 15px;
+      border: 1px solid #e1e4e8;
+      &:focus {
+        outline: none;
+         box-shadow: 1px 1px 1.5px 1.5px  rgb(228, 227, 227)
+      }
+    }
+
+    .text_area {
+      width: 100%;
+       height: 150px;
+      padding: 12px;
+      resize: vertical;
+      border: 1px solid #e1e4e8;
+      background-color: rgb(255, 255, 255);
+      border-radius: 10px;
+      &:focus{
+          outline: none !important;
+          box-shadow: 1px 1px 1.5px 1.5px  rgb(245, 241, 241)
+      }
+    }
+
+   
+  }
+
+  .free_data_text_box{
+    h4{
+        font-weight: 600;
+        font-family: sans-serif;
+    }
+
+    p{
+        font-size: 14px;
+    }
+    .freez_note{
+        background-color: rgb(244, 245, 245);
+        padding: 15px 15px;
+        margin-top: 20px;
+        h6{
+            color: grey;
+        }
+        
+    }
+    
+}
+
+
+.select_options{
+    background: transparent;
+    img {
+         width: 25px;
+         height: 25px;
+         
+    }
+    span{
+        margin-left: 15px !important;
+        
+    }
+    
+}

@@ -1,0 +1,26 @@
+.form {
+    label {
+      text-transform: capitalize;
+      font-weight: 600;
+      font-family: sans-serif;
+    }
+    p{
+          font-size: 14px ;
+          color: gray;
+
+    }
+    input {
+      width: 100%;
+      height: 46px;
+      border-radius: 7px;
+      padding: 0px 15px;
+      border: 1px solid rgb(187, 178, 178);
+      &:focus {
+        outline: none !important;
+      }
+    }
+
+
+   
+   
+}
